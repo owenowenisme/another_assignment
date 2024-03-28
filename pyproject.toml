@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "\u001b[a"
+version = "0.1.0"
+description = ""
+authors = ["owenowenisme <mses010108@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.29"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
