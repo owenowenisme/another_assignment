@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 from schema.users import User, UserCreate, UserUpdate, UserResponse
 from model import model
-from curd import crud
+from crud import crud
 from db.db import get_db
 
 router = APIRouter()
