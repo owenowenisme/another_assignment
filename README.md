@@ -1,4 +1,4 @@
-# another_assignment
+# fastapi_assignment
 
 Built with fastapi and sqlite as db.
 
